@@ -5,3 +5,7 @@ interface ISum{
 function twoSum({a,b}:ISum):Number{
     return a+b
 }
+
+function multiply({a,b}:ISum):Number{
+    return a*b
+}
